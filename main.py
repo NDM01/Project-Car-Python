@@ -58,7 +58,7 @@ over_font = pygame.font.Font('freesansbold.ttf', 64)
 
 def isCollision(enemyX, enemyY, playerX, playerY):
     distance = math.sqrt((math.pow(enemyX - playerX, 2)) + (math.pow(enemyY - playerY, 2)))
-    if distance < 57:
+    if distance < 30:
         return True
     else:
         return False
