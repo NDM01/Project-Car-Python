@@ -12,8 +12,6 @@ screen = pygame.display.set_mode((300, 650))
 background = pygame.image.load('fundo.jpg')
 
 
-
-
 def game_over_text():
     over_text = font.render("GAME OVER", True, (255, 255, 255))
     screen.blit(over_text, (50, 300))
