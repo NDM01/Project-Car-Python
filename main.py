@@ -1,6 +1,7 @@
-import pygame
+x\import pygame
 import random
 import math
+from pygame import mixer
 from time import sleep
 
 # Iniciar o pygame
@@ -15,6 +16,10 @@ background = pygame.image.load('fundo.jpg')
 def game_over_text():
     over_text = font.render("GAME OVER", True, (255, 255, 255))
     screen.blit(over_text, (50, 300))
+
+# Música
+mixer.music.load('car.wav')
+mixer.music.play(-1)
 
 
 # Titlo e Icon
