@@ -1,4 +1,4 @@
-x\import pygame
+import pygame
 import random
 import math
 from pygame import mixer
