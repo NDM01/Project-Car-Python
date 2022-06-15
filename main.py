@@ -12,9 +12,6 @@ screen = pygame.display.set_mode((300, 650))
 background = pygame.image.load('fundo.jpg')
 
 
-# Musica de fundo
-# mixer.music.load('fnd.wav')
-# mixer.music.play(-
 
 
 def game_over_text():
