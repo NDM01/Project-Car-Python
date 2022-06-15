@@ -17,10 +17,10 @@ def game_over_text():
     over_text = font.render("GAME OVER", True, (255, 255, 255))
     screen.blit(over_text, (50, 300))
 
-# Música
-mixer.music.load('car.wav')
-mixer.music.play(-1)
 
+# Música
+mixer.music.load('/car.wav')
+mixer.music.play(-1)
 
 # Titlo e Icon
 pygame.display.set_caption("Project Car")
