@@ -19,7 +19,7 @@ def game_over_text():
 
 
 # Música
-mixer.music.load('/car.wav')
+mixer.music.load('car.wav')
 mixer.music.play(-1)
 
 # Titlo e Icon
